@@ -1,0 +1,24 @@
+# Virtual environment (Your specific venv folder)
+venv/
+.venv/
+env/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large data files (Don't commit massive CSVs)
+data/*.csv
+data/*.json
+
+# Saved AI models (Large binary files)
+saved_models/*.joblib
+saved_models/*.pkl
+saved_models/*.h5
+
+# Environment secrets
+.env
+
+# OS-specific files
+.DS_Store
