@@ -74,8 +74,8 @@ Each component is independent but connected through APIs.
 **Goal:** Build and validate a machine-learning model that can classify emails as safe, suspicious, or phishing with a meaningful risk score.
 
 **Tasks:**
-- [ ] Collect and clean phishing + legitimate email datasets.
-- [ ] Preprocess text (lowercase, tokenize, remove noise, normalize).
+- [X] Collect and clean phishing + legitimate email datasets.
+- [X] Preprocess text (lowercase, tokenize, remove noise, normalize).
 - [ ] Train baseline ML model (Logistic Regression / Random Forest / LightGBM).
 - [ ] Evaluate accuracy, precision, recall, F1 score.
 - [ ] Create a simple prediction script for testing.
